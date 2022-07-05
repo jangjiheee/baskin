@@ -10,7 +10,7 @@ ul, li, ol {
 body {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(200, 238, 252);
+  background-color: rgb(193, 216, 224);
 }
 
 a {
@@ -50,7 +50,7 @@ body .wrapper .donut-box .donut-flex-box ul li p {
   font-size: 1.5em;
 }
 body .wrapper .list-price-box {
-  background-color: rgb(200, 238, 252);
+  background-color: rgb(193, 216, 224);
   width: 30%;
   border-radius: 3%;
 }
