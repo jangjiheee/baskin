@@ -2,18 +2,19 @@
 
 body {
     background-image: url("./../images/bakcground.png");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
 
     .wrapper {
-        width: 95%;
+        width: 1920px;
         margin: 0 auto;
         padding-top: 100px;
         display: flex;
         justify-content: space-evenly;
 
         .donut-box {
-            width: 30%;
+            width: 35%;
             padding-left: 30px;
             .donut-flex-box {
                 ul {
@@ -35,8 +36,14 @@ body {
         }
 
         .list-price-box {
-            background-color: skyblue;
+            background-color: rgb(200, 238, 252);
             width: 30%;
+            border-radius: 3%;
+            .rectangle-box {
+                width: 85%;
+                margin: 50px auto;
+                background-color: #f27384;
+            }
         }
     }
 }

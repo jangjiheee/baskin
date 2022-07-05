@@ -10,7 +10,7 @@ ul, li, ol {
 body {
   width: 100vw;
   height: 100vh;
-  background-color: #87ceeb;
+  background-color: rgb(200, 238, 252);
 }
 
 a {

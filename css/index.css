@@ -10,7 +10,7 @@ ul, li, ol {
 body {
   width: 100vw;
   height: 100vh;
-  background-color: skyblue;
+  background-color: rgb(200, 238, 252);
 }
 
 a {
@@ -19,18 +19,19 @@ a {
 
 body {
   background-image: url("./../images/bakcground.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
 }
 body .wrapper {
-  width: 95%;
+  width: 1920px;
   margin: 0 auto;
   padding-top: 100px;
   display: flex;
   justify-content: space-evenly;
 }
 body .wrapper .donut-box {
-  width: 30%;
+  width: 35%;
   padding-left: 30px;
 }
 body .wrapper .donut-box .donut-flex-box ul {
@@ -49,6 +50,12 @@ body .wrapper .donut-box .donut-flex-box ul li p {
   font-size: 1.5em;
 }
 body .wrapper .list-price-box {
-  background-color: skyblue;
+  background-color: rgb(200, 238, 252);
   width: 30%;
+  border-radius: 3%;
+}
+body .wrapper .list-price-box .rectangle-box {
+  width: 85%;
+  margin: 50px auto;
+  background-color: #f27384;
 }
